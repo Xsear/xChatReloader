@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component
+    xmlns="http://www.red5studios.com/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.red5studios.com/ ../../../schemas/component.xsd"
+    >
+    <Info
+        title="ChatReloader"
+        author="Xsear"
+        description="Reinserts chat messages after a reloadui."
+        url=""
+        uiVersion="1000"
+    />
+    <Events>
+        <!-- Firefall -->
+        <Event name="ON_COMPONENT_LOAD"             bind="OnComponentLoad"  />
+        <Event name="ON_PRE_RELOADUI"               bind="OnPreReloadUI"    />
+        <Event name="ON_CHAT_MESSAGE"               bind="OnChatMessage"    />
+        <Event name="MY_CHAT_MESSAGE"               bind="OnChatMessage"    />
+    </Events>
+</Component>
