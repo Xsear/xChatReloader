@@ -5,10 +5,10 @@
     xsi:schemaLocation="http://www.red5studios.com/ ../../../schemas/component.xsd"
     >
     <Info
-        title="ChatReloader"
+        title="xChatReloader"
         author="Xsear"
-        description="Reinserts chat messages after a reloadui."
-        url=""
+        description="Remembers and restores chat messages after a reloadui."
+        url="//forums.firefallthegame.com/community/threads/2981021/"
         uiVersion="1000"
     />
     <Events>
