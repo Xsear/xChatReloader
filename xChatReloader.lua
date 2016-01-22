@@ -14,9 +14,9 @@ require "lib/lib_ChatLib"
 -- ------------------------------------------
 
 AddonInfo = {
-    release  = "2016-01-20",
+    release  = "2016-01-22",
     version = "1.1",
-    patch = "1.6.14xx",
+    patch = "1.6.1931",
     save = 1,
 }
 
