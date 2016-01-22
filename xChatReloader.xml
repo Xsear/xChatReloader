@@ -8,7 +8,7 @@
         title="ChatReloader"
         author="Xsear"
         description="Remembers and restores chat messages after a reloadui."
-        url="//forums.firefall.com/community/threads/2981021/"
+        url="http://forums.firefall.com/community/threads/2981021/"
         uiVersion="1000"
     />
     <Events>
